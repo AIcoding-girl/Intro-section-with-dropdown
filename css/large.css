@@ -1,0 +1,126 @@
+@media only screen and (min-width: 1024px) {
+    /* for container to limit max width for content block:
+        max-width: 1440px;
+        margin: auto;
+    */
+
+    .container {
+        height: 80vh;
+    }
+
+    #menu-icon, #close-menu-btn {
+        display: none;
+    }
+
+    .main-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .large-top-menu {
+        position: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: inherit;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .menu-items {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .menu-item {
+        flex: 1;
+    }
+
+    .menu-item > a {
+        padding-bottom: 0;
+    }
+
+    .sub-menu {
+        position: fixed;
+        z-index: 1;
+        width: inherit;
+        padding: 20px;
+        font-size: smaller;
+        box-shadow: 0px 8px 16px 8px rgba(105,105,105,0.2);
+    }
+
+    .sub-menu:last-child {
+        padding-bottom: 0;
+    }
+
+    .user-access {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .user-access li {
+        width: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        max-height: 75vh;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        justify-content: space-between;
+        max-width: 40%;
+    }
+
+    section .main-content {
+        text-align: start;
+        align-self: center;
+    }
+
+    .main-content .title {
+        font-size: 56px;
+        white-space: pre;
+    }
+
+    .main-content .text {
+        max-width: 75%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0;
+    }
+
+    section .icons-block {
+        justify-content: start;
+    }
+
+    .icon-bottom {
+        max-width: 140px;
+        margin-right: 20px;
+    }
+
+    .menu-item a:hover {
+        color: var(--black);
+    }
+
+    .main-content button:hover {
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+    }
+}
