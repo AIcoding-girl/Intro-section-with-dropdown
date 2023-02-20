@@ -24,10 +24,11 @@ Users should be able to:
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 ![](screenshots/mobile-main.png)
 ![](screenshots/mobile-sidenav.png)
+
 ![](screenshots/desktop.png)
 
 ### Links
